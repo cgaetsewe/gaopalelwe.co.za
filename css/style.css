@@ -177,11 +177,10 @@ select:focus,
 textarea:focus {
     outline: none;
 }
-a:hover,
+.text:hover,
 #navbar img:hover
  {
   background: #c59439c5;
-  
 }
 
 button:hover {
