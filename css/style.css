@@ -381,6 +381,15 @@ textarea {
   .faqs-ul {
     list-style:none;
   }
+  @media (min-width:1026px) {
+    .gallery-image {
+      width: 100%;
+      transition: All 1s ease-in-out;
+    }
+    .gallery-image:hover {
+      transform: scale(4);
+    }
+  }
   
 @media(max-width:1204px) {
   #Rooms .items {
