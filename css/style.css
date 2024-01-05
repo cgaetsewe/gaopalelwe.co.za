@@ -232,13 +232,12 @@ background: #c59439c5;
 }
 #showcase {
   max-width: auto;
-  background: url('../img/showcase1.jpg') no-repeat center center/cover;
+  /*background: url('../img/showcase1.jpg') no-repeat center center/cover;*/
   height: 92vh;
  }
  #showcase-room {
   max-width: auto;
-  background: url('../img/showcase1.jpg') no-repeat center center/cover;
-  height: 25vh;
+  height: 15vh;
  }
 #showcase .showcase-content {
   display: flex;
