@@ -96,6 +96,7 @@ a {
 .bg-dark {
   background: #333;
   color: #aaa;
+  padding: 0.2rem;
 }
 .bg-lightgrey {
   background: #f6f4f4ec;
@@ -177,10 +178,12 @@ select:focus,
 textarea:focus {
     outline: none;
 }
+
 .text:hover,
 #navbar img:hover
  {
   background: #c59439c5;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -408,6 +411,11 @@ textarea {
   .showcase-heading {
     font-size: 2rem;
     margin-bottom: 0.75rem;
+    line-height: 1.1;
+  }
+  #showcase, a {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
     line-height: 1.1;
   }
 }
