@@ -286,10 +286,15 @@ background: #c59439c5;
 #about div {
   flex: 1;
 }
-/*
+
 #about .about-img {
-  background: url('../img/showcase2.jpg') no-repeat center center/cover;
-}*/
+
+width: 50%;
+height: 450px;
+object-fit: cover;
+
+  /*background: url('../img/showcase2.jpg') no-repeat center center/cover;*/
+}
 
 /* Section: Clients */
 #connect {
@@ -399,8 +404,7 @@ textarea {
     display: block;
   }
   #about .about-img {
-    background: url('../img/showcase2.jpg') no-repeat center center/cover;
-    height: 40vh;
+    width: 100%;
   }
   .showcase-heading {
     font-size: 2rem;
