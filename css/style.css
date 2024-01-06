@@ -221,7 +221,7 @@ background: #c59439c5;
   height: auto;
   padding: 0rem;
   display: flex;
-  position: fixed;
+  position:sticky;
   bottom:0;
   justify-content: space-around;
   z-index: 1;
@@ -229,6 +229,7 @@ background: #c59439c5;
   align-items: center;
   background-color: #fff;
 }
+
 #navbar img {
   background: no-repeat center center/cover;
   height: 5rem;
@@ -426,6 +427,7 @@ textarea {
     }
     .gallery-image:hover {
       transform: scale(4);
+      z-index: 100;
     }
   }
   
