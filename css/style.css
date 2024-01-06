@@ -179,11 +179,12 @@ textarea:focus {
     outline: none;
 }
 
-.text:hover,
+.text:hover, 
 #navbar img:hover
  {
   background: #c59439c5;
   border-radius: 5px;
+  transition: All 1s ease-in-out;
 }
 
 button:hover {
@@ -197,6 +198,9 @@ background: #c59439c5;
   background: #777;
   color: #c59439c5;
 }
+.pointer {
+  cursor: pointer;
+}
 
 /* Navbar */
 #navbar {
@@ -206,6 +210,19 @@ background: #c59439c5;
   display: flex;
   position: sticky;
   top:0;
+  justify-content: space-around;
+  z-index: 1;
+  border-radius: 10px;
+  align-items: center;
+  background-color: #fff;
+}
+.footer {
+  flex-wrap: wrap;
+  height: auto;
+  padding: 0rem;
+  display: flex;
+  position: fixed;
+  bottom:0;
   justify-content: space-around;
   z-index: 1;
   border-radius: 10px;
@@ -226,6 +243,20 @@ background: #c59439c5;
   display: flex;
   list-style: none;
 }
+.box-color {
+  animation-name: animate1;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+
+}
+@keyframes animate1 {
+  to {
+   background-color: #000;
+  }
+}
+
 
 /* Showcase */
 #showcase a {
