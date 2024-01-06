@@ -244,6 +244,7 @@ background: #c59439c5;
   display: flex;
   list-style: none;
 }
+
 .box-color {
   animation-name: animate1;
   animation-duration: 4s;
@@ -288,6 +289,22 @@ background: #c59439c5;
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0);
+}
+#showcase-content {
+  animation: transitionIn 2s;
+
+}
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX('-10deg');
+
+  } to {
+    opacity: 1;
+    transform: rotateX('0');
+
+  }
+  
 }
 
 #Rooms .items {
