@@ -47,7 +47,7 @@ a {
   max-width: 1400px;
   width: 100%;
   flex-wrap: wrap;
-  ;
+  
 }
 .faqs-container {
   margin: auto;
@@ -342,21 +342,22 @@ background: #c59439c5;
 #about div {
   flex: 1;
 }
+#connect img {
+  width: 100%;
+  height: 200px;
+  object-fit:cover;
 
+}
 #about .about-img {
 
 width: 50%;
 height: 450px;
 object-fit: cover;
-
-  /*background: url('../img/showcase2.jpg') no-repeat center center/cover;*/
 }
 
-/* Section: Clients */
-#connect {
-  background: url('../img/showcase4.jpg') no-repeat center center/cover;
+/* #connect {
   width: auto;
-}
+} */
 #connect .items {
   height: 15rem;
   display: flex;
@@ -373,7 +374,6 @@ object-fit: cover;
   display: flex;
   max-width: 100%;
   border-top: solid #ededede8;
-  /* padding: 0rem 20rem 2rem; */
 }
 
 #contact .map, #contact .contact-form {
